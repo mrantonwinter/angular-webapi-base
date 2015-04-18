@@ -1,0 +1,6 @@
+﻿///////////////////////////////////////////////////////////////////////////////////////////////////
+
+app.controller('maincontroller', ['$scope', 'mainservice', function ($scope, mainservice) {
+    $scope.Title = mainservice.Model.Title;
+}]);
+
